@@ -2,6 +2,6 @@
 
 OS system = Linux ARM (Linux Deploy)
 
-For changing password, edit chpass.rb and run
+For changing password, edit chpass.py and run
 
-$ sudo ruby chpass.rb
+$ sudo python3 chpass.py
