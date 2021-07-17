@@ -4,7 +4,7 @@ import getpass
 import os
 
 passwd = getpass.getpass('root password: ')
-if passwd == oldpass:
-    break
-elif passwd != oldpass:
+if passwd == "oldpass":
+    exit
+elif passwd != " oldpass":
     os.system("python3 ~/sudopass/pass.py")
