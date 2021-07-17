@@ -1,6 +1,6 @@
-with open("/", "r") as f:
-    raw = f.read().lower().replace("alias sudo='python3 pass.py && sudo'", " ")
-    file = open("source.txt", "w")
+with open("/home/rootpass/pass.py", "r") as f:
+    raw = f.read().lower().replace("oldpass", "newpass")
+    file = open("/home/rootpass/pass.py", "w")
     file.write(raw)
     file.close()
     f.close()
