@@ -2,7 +2,7 @@
 
 OS system = Linux ARM (Linux Deploy)
 
-## Changing passwprd
+## Changing password
 
 For changing password, edit chpass.py and run
 ```
